@@ -1,0 +1,18 @@
+job_id,job_title,department_id,base_salary_inr
+101,HR Executive,1,42000
+102,HR Manager,1,85000
+103,Financial Analyst,2,65000
+104,Finance Manager,2,105000
+105,Software Engineer,3,80000
+106,Data Analyst,3,75000
+107,IT Manager,3,125000
+108,Sales Executive,4,50000
+109,Sales Manager,4,90000
+110,Marketing Executive,5,48000
+111,Marketing Manager,5,88000
+112,Operations Executive,6,52000
+113,Operations Manager,6,92000
+114,Support Executive,7,40000
+115,Support Manager,7,78000
+116,Procurement Executive,8,50000
+117,Procurement Manager,8,90000

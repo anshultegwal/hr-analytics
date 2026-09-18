@@ -1,0 +1,17 @@
+table,column,key / role,description
+departments,department_id,PK,Department master
+jobs,job_id,PK,Job master
+jobs,department_id,FK → departments.department_id,Job department
+employees,employee_id,PK,Employee master
+employees,department_id,FK → departments.department_id,Employee department
+employees,job_id,FK → jobs.job_id,Employee job
+employees,manager_id,FK → employees.employee_id,Manager hierarchy
+salaries,salary_id,PK,Salary history
+salaries,employee_id,FK → employees.employee_id,Employee salary
+salaries,job_id,FK → jobs.job_id,Salary job
+performance,review_id,PK,Performance review
+performance,employee_id,FK → employees.employee_id,Employee review
+attendance,attendance_id,PK,Attendance record
+attendance,employee_id,FK → employees.employee_id,Employee attendance
+leaves,leave_id,PK,Leave request
+leaves,employee_id,FK → employees.employee_id,Employee leave

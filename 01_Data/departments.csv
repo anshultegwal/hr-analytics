@@ -1,0 +1,9 @@
+department_id,department_name,location,annual_budget_inr
+1,Human Resources,Delhi,45000000
+2,Finance,Mumbai,70000000
+3,Information Technology,Bengaluru,120000000
+4,Sales,Delhi,95000000
+5,Marketing,Mumbai,65000000
+6,Operations,Pune,90000000
+7,Customer Support,Hyderabad,60000000
+8,Procurement,Pune,55000000
